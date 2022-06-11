@@ -1,0 +1,234 @@
+.member-txt{
+    font-size: 25px;
+    top: 10px;
+    font-weight: 100;
+    opacity: 0.8;
+    border-bottom: 2px solid var(--color-pri);
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.members-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin-top: 100px;
+}
+
+.members-container .member{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items:flex-start;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    background-color: rgba(0,0,0,0.014);
+    padding: 20px 20px;
+    border-radius:50px;
+}
+
+.members-container .member .stack{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.members-container .member .stack .member-img{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+
+.members-container .member .stack .member-img:nth-child(1){
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-right: 10px;
+    background: url(../props/node.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+}
+
+.members-container .member .stack .member-img:nth-child(2){
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-right: 10px;
+    background: url(../props/ts.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+}
+
+.members-container .member .stack .member-img:nth-child(3){
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-right: 10px;
+    background: url(../props/js.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+}
+
+.members-container .member .stack .member-img-2:nth-child(1){
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-right: 10px;
+    background: url(../props/node.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+}
+
+.members-container .member .stack .member-img-2:nth-child(2){
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-right: 10px;
+    background: url(../props/react.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+}
+
+.members-container .member .stack .member-img-2:nth-child(3){
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-right: 10px;
+    background: url(../props/aws.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+}
+
+.members-container .member .stack .member-img-3:nth-child(1){
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-right: 10px;
+    background: url(../props/python.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+}
+
+.members-container .member .stack .member-img-3:nth-child(2){
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-right: 10px;
+    background: url(../props/node.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+}
+
+.members-container .member .stack .member-img-3:nth-child(3){
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-right: 10px;
+    background: url(../props/react.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+}
+
+.members-container .member .stack .member-img-4:nth-child(1){
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-right: 10px;
+    background: url(../props/html.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+}
+.members-container .member .stack .member-img-4:nth-child(2){
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-right: 10px;
+    background: url(../props/css.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+}
+.members-container .member .stack .member-img-4:nth-child(3){
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-right: 10px;
+    background: url(../props/php.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+}
+
+.members-container .member .member-info{
+    margin-left: 10px;
+    font-family: 'Open Sans Condensed';
+    max-width: 100%;
+}
+
+.members-container .member .member-info .title{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.date{
+    position: absolute;
+    top: -2px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.members-container .member .member-info .position{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.members-container .member .member-info .about{
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+.members-container .member .member-info .description{
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 17px;
+    list-style: disc;
+    margin-left: 30px;
+}
+
+.members-container .member .member-info .contact-member{
+    background: var(--color-sec-light);
+    padding: 17px 35px;
+    font-size: 18px;
+    margin-top:50px;
+    border-radius: 50px;
+    position: absolute;
+    transition: .1s ease;
+}
+
+.members-container .member .member-info .contact-member span{
+    text-transform: capitalize;
+}
+
+.members-container .member .member-info .contact-member:hover{
+    background: transparent;
+    border: 2px solid var(--color-sec-light);
+}
