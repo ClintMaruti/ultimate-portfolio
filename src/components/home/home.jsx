@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import img from "../props/king1.png";
+import img from "../props/king_blu.png";
 import Button from "../button/button";
 import { BsMouse } from "react-icons/bs";
 import "./home.css";

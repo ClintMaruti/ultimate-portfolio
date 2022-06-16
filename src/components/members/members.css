@@ -4,7 +4,8 @@
     font-weight: 100;
     opacity: 0.8;
     border-bottom: 2px solid var(--color-pri);
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
 }
 
 .members-container {
@@ -15,6 +16,8 @@
     align-items: flex-start;
     min-height: 100vh;
     margin-top: 100px;
+    line-height: 2;
+    font-weight: 400;
 }
 
 .members-container .member{
@@ -177,7 +180,7 @@
 
 .members-container .member .member-info{
     margin-left: 10px;
-    font-family: 'Open Sans Condensed';
+    font-family: 'Lato';
     max-width: 100%;
 }
 
